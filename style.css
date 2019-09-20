@@ -46,7 +46,6 @@ abbr {
     width: 45%;
     margin-left: 10%;
 }
-
 .sidebar {
     float: right;
     margin-right: 10%;
@@ -93,5 +92,25 @@ footer {
     .requirements {
         width: 80%;
     }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .main {
+        width: 50%;
+        float: none;
+        margin: auto;
+    }
+
+    .sidebar {
+        width: 25%;
+        margin-left: 5%;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+    }
+
 }
  
